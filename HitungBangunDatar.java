@@ -12,12 +12,10 @@
             this.sisi = sisi;
         }
 
-        @Override
         public double hitungLuas() {
             return sisi * sisi;
         }
 
-        @Override
         public double hitungKeliling() {
             return 4 * sisi;
         }
@@ -32,12 +30,11 @@
             this.lebar = lebar;
         }
 
-        @Override
         public double hitungLuas() {
             return panjang * lebar;
         }
 
-        @Override
+
         public double hitungKeliling() {
             return 2 * (panjang + lebar);
         }
@@ -50,12 +47,10 @@
             this.jariJari = jariJari;
         }
 
-        @Override
         public double hitungLuas() {
             return Math.PI * jariJari * jariJari;
         }
 
-        @Override
         public double hitungKeliling() {
             return 2 * Math.PI * jariJari;
         }
